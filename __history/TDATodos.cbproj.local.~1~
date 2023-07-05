@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/06/28 19:08:30.673,=C:\Users\jalej\Documents\RAD\Project1PCH1.h</Transaction>
+    <Transaction>2023/06/28 19:08:30.673,=C:\Users\jalej\Documents\RAD\File1.cpp</Transaction>
+    <Transaction>2023/06/28 19:09:29.908,=C:\Users\jalej\Documents\RAD\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:10:13.071,C:\Users\jalej\Documents\RAD\CSMemoria.cpp=C:\Users\jalej\Documents\RAD\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:10:13.071,C:\Users\jalej\Documents\RAD\CSMemoria.h=C:\Users\jalej\Documents\RAD\Unit1.h</Transaction>
+    <Transaction>2023/06/28 19:10:29.053,=C:\Users\jalej\Documents\RAD\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:12:38.068,C:\Users\jalej\Documents\RAD\MLista.cpp=C:\Users\jalej\Documents\RAD\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:12:38.068,C:\Users\jalej\Documents\RAD\MLista.h=C:\Users\jalej\Documents\RAD\Unit1.h</Transaction>
+    <Transaction>2023/06/28 19:12:52.708,C:\Users\jalej\Documents\RAD\Main.cpp=C:\Users\jalej\Documents\RAD\File1.cpp</Transaction>
+    <Transaction>2023/06/28 19:13:11.248,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\TDATodosPCH1.h=C:\Users\jalej\Documents\RAD\Project1PCH1.h</Transaction>
+    <Transaction>2023/06/28 19:13:11.288,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Main.cpp=C:\Users\jalej\Documents\RAD\Main.cpp</Transaction>
+    <Transaction>2023/06/28 19:13:11.308,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\CSMemoria.cpp=C:\Users\jalej\Documents\RAD\CSMemoria.cpp</Transaction>
+    <Transaction>2023/06/28 19:13:11.308,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\CSMemoria.h=C:\Users\jalej\Documents\RAD\CSMemoria.h</Transaction>
+    <Transaction>2023/06/28 19:13:11.333,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\MLista.cpp=C:\Users\jalej\Documents\RAD\MLista.cpp</Transaction>
+    <Transaction>2023/06/28 19:13:11.333,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\MLista.h=C:\Users\jalej\Documents\RAD\MLista.h</Transaction>
+    <Transaction>2023/06/28 19:13:11.343,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\TDATodos.cbproj=C:\Users\jalej\Documents\RAD\Project1.cbproj</Transaction>
+    <Transaction>2023/06/28 19:25:42.739,=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:25:50.474,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\VPila.h=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.h</Transaction>
+    <Transaction>2023/06/28 19:25:50.474,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\VPila.cpp=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:28:02.399,=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:28:36.768,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\CRSMatriz.cpp=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:28:36.768,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\CRSMatriz.h=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.h</Transaction>
+    <Transaction>2023/06/28 19:32:42.408,=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.cpp</Transaction>
+    <Transaction>2023/06/28 19:32:54.818,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\LPolinomio.h=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.h</Transaction>
+    <Transaction>2023/06/28 19:32:54.818,C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\LPolinomio.cpp=C:\Users\jalej\Documents\RAD\z-2despues de reunion\TDAtodos\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

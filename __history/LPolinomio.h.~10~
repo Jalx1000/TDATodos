@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+#ifndef LPolinomioH
+#define LPolinomioH
+#include "MLista.h"
+//---------------------------------------------------------------------------
+ListaS pol;
+typedef int direccion;
+
+class LPolinomio
+{
+  private:
+    direccion BuscarExponente(int Exp);
+    direccion BuscarTerminoN(int i);
+  public:
+    LPolinomio();
+    bool esCero();
+    int grado();
+    int coeficiente(int Exp);
+    void asignarCoef(int coef, int exp);
+    void poner_termino(int coef, int exp);
+    int numero_terminos();
+    int exponente(int nroter);
+    void suma(LPolinomio p1, LPolinomio p2);
+    void restar();
+    void multiplicar();
+};
+
+#endif
+
