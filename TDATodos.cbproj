@@ -109,6 +109,11 @@
         <BCC_UseClassicCompiler>false</BCC_UseClassicCompiler>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="ColaL.cpp">
+            <VirtualFolder>{41F73256-C1B9-4BB7-A4FB-133755CC26BB}</VirtualFolder>
+            <DependentOn>ColaL.h</DependentOn>
+            <BuildOrder>8</BuildOrder>
+        </CppCompile>
         <CppCompile Include="CRSMatriz.cpp">
             <VirtualFolder>{E4D34844-A080-4CE3-9FBC-82D54A4BC31D}</VirtualFolder>
             <DependentOn>CRSMatriz.h</DependentOn>
@@ -118,6 +123,11 @@
             <VirtualFolder>{D10978BF-B7E7-461C-9EEB-9585440E334B}</VirtualFolder>
             <DependentOn>CSMemoria.h</DependentOn>
             <BuildOrder>2</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="ListaV.cpp">
+            <VirtualFolder>{42BEE4F8-7FA0-4CB0-B7C0-AEED3D18C346}</VirtualFolder>
+            <DependentOn>ListaV.h</DependentOn>
+            <BuildOrder>9</BuildOrder>
         </CppCompile>
         <CppCompile Include="LPolinomio.cpp">
             <VirtualFolder>{C730A762-A1CD-4588-A1A3-846DE5729B45}</VirtualFolder>
@@ -136,6 +146,11 @@
             <BuildOrder>0</BuildOrder>
             <PCH>true</PCH>
         </PCHCompile>
+        <CppCompile Include="VCola.cpp">
+            <VirtualFolder>{41F73256-C1B9-4BB7-A4FB-133755CC26BB}</VirtualFolder>
+            <DependentOn>VCola.h</DependentOn>
+            <BuildOrder>7</BuildOrder>
+        </CppCompile>
         <CppCompile Include="VPila.cpp">
             <VirtualFolder>{3AE7C694-3920-4C9B-BE51-979A43E91BAE}</VirtualFolder>
             <DependentOn>VPila.h</DependentOn>

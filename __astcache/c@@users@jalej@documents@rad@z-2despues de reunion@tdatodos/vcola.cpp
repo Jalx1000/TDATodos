@@ -1,0 +1,41 @@
+﻿//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "VCola.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+VCola::VCola()
+{
+    fin = 0;
+    ini = 1;
+}
+
+bool VCola::vacia()
+{
+    return (ini > fin);
+}
+
+void VCola::Poner(tipo_elemento E)
+{
+    if (fin < MAX) {
+        fin = fin + 1;
+        v[fin] = E;
+    }
+}
+
+void VCola::Sacar(tipo_elemento* E)
+{
+	if (!vacia()) {
+		E = V[1];
+        desplazar(1);
+		fin = fin - 1;
+	}
+}
+
+tipo_elemento VCola::Primero(){
+	return V[1];//tomar en cuanta el v[0] con el v[1]
+}
+
+
