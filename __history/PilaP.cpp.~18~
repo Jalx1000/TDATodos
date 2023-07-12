@@ -1,0 +1,85 @@
+﻿//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "PilaP.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#include <iostream>
+using namespace std;
+
+//---------------------------------------------------------------------------
+PilaP::PilaP()
+{
+    tope = new NodoP;
+    tope->sig = NULL;
+}
+bool PilaP::vacia()
+{
+    return tope == NULL;
+}
+
+// void PilaP::meter(int e)
+//{
+//	direccionPP x = new NodoP;
+//	x->elemento = e;
+//	x->sig = tope;
+//	tope = x;
+// }
+
+void PilaP::meter(int e)
+{
+    direccionPP x = new NodoP;
+    x->elemento = e;
+    if (vacia())
+    {
+        x->sig = NULL;
+    }
+    else
+    {
+        x->sig = tope;
+    }
+    tope = x;
+}
+
+void PilaP::sacar(int &e)
+{
+    if (!vacia())
+    {
+        e = tope->elemento;
+        cout << "Elemento sacado: " << e << endl;
+        direccionPP ant = tope;
+        tope = ant->sig;
+        delete (ant);
+    }
+}
+
+int PilaP::cima()
+{
+    return tope->elemento;
+}
+
+void PilaP::mostrar()
+{
+    if (vacia())
+    {
+        cout << "La pila está vacía." << endl;
+        return;
+    }
+
+    PilaP aux;
+    while (!vacia())
+    {
+        int e = 0;
+        sacar(e);
+        cout << "[" << e << "]\n";
+        aux.meter(e);
+    }
+
+    while (!aux.vacia())
+    {
+        int e = 0;
+        aux.sacar(e);
+        meter(e);
+    }
+}

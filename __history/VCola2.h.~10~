@@ -1,0 +1,28 @@
+//---------------------------------------------------------------------------
+
+#ifndef VCola2H
+#define VCola2H
+//---------------------------------------------------------------------------
+
+typedef int tipo_elemento;
+const int MAX2 = 3;
+
+class VCola2
+{
+  private:
+    int VC2[MAX2];
+    int ini2;
+    int fin2;
+  public:
+    VCola2();
+    bool vacia2();
+    void poner2(tipo_elemento E);
+    void sacar2(tipo_elemento &E);
+    tipo_elemento primero2();
+
+	void desplazar2(int d);
+    void mostrarVCola2(VCola2 cola);
+};
+
+#endif
+

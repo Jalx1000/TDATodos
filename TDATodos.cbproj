@@ -142,6 +142,11 @@
         <CppCompile Include="Main.cpp">
             <BuildOrder>1</BuildOrder>
         </CppCompile>
+        <CppCompile Include="PilaP.cpp">
+            <VirtualFolder>{3AE7C694-3920-4C9B-BE51-979A43E91BAE}</VirtualFolder>
+            <DependentOn>PilaP.h</DependentOn>
+            <BuildOrder>13</BuildOrder>
+        </CppCompile>
         <PCHCompile Include="TDATodosPCH1.h">
             <BuildOrder>0</BuildOrder>
             <PCH>true</PCH>
@@ -155,6 +160,11 @@
             <VirtualFolder>{41F73256-C1B9-4BB7-A4FB-133755CC26BB}</VirtualFolder>
             <DependentOn>VCola2.h</DependentOn>
             <BuildOrder>10</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="VCola3.cpp">
+            <VirtualFolder>{41F73256-C1B9-4BB7-A4FB-133755CC26BB}</VirtualFolder>
+            <DependentOn>VCola3.h</DependentOn>
+            <BuildOrder>11</BuildOrder>
         </CppCompile>
         <CppCompile Include="VPila.cpp">
             <VirtualFolder>{3AE7C694-3920-4C9B-BE51-979A43E91BAE}</VirtualFolder>

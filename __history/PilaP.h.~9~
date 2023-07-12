@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+
+#ifndef PilaPH
+#define PilaPH
+#import "CSMemoria.h"
+//---------------------------------------------------------------------------
+typedef int tipo_elemento;
+
+struct NodoP
+{
+	tipo_elemento elemento;
+	NodoP* sig;
+};
+
+//typedef NodoP* direccion;
+
+direccion = new NodoP;
+
+class PilaP
+{
+  private:
+//	direccion* tope;
+typedef direccion *tope;
+  public:
+    PilaP();
+    bool vacia();
+    void meter(int e);
+    void sacar(int &e);
+    int cima();
+    void mostrar();
+};
+#endif
+

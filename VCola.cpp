@@ -10,11 +10,6 @@
 
 using namespace std;
 
-int desplazar(int n)
-{
-    return n;
-}
-
 VCola::VCola()
 {
     fin = 0;
@@ -40,7 +35,6 @@ void VCola::sacar(tipo_elemento &E)
     if (!vacia())
     {
         E = VC[ini];
-        // desplazar(1);
         ini = ini + 1;
     }
 }

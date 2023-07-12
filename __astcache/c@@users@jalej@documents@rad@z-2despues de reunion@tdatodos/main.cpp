@@ -8,42 +8,77 @@
 #include "LPolinomio.h"
 #include "VCola.h"
 #include "VCola2.h"
+#include "VCola3.h"
+#include "PilaP.h"
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    VCola Cola;
-    VCola2 Cola2;
+    // COLA CON VECTORES V.1
 
-    Cola.poner(10);
-    Cola.poner(20);
-    Cola.poner(30);
-    Cola.poner(40);
-    Cola.poner(50);
+    // VCola Cola;
 
-    Cola2.poner(10);
-    Cola2.poner(20);
-    Cola2.poner(30);
-    Cola2.poner(40);
-    Cola2.poner(50);
+    // Cola.poner(10);
+    // Cola.poner(20);
+    // Cola.poner(30);
+    // Cola.poner(40);
+    // Cola.poner(50);
 
-    Cola.mostrarVCola(Cola);
-    tipo_elemento elemento;
-    Cola.sacar(elemento);
-    Cola.mostrarVCola(Cola);
-    Cola.sacar(elemento);
-    Cola.mostrarVCola(Cola);
-    Cola.sacar(elemento);
-    Cola.mostrarVCola(Cola);
+    // Cola.mostrarVCola(Cola);
+    // tipo_elemento elemento;
+    // Cola.sacar(elemento);
+    // Cola.mostrarVCola(Cola);
+    // Cola.sacar(elemento);
+    // Cola.mostrarVCola(Cola);
+    // Cola.sacar(elemento);
+    // Cola.mostrarVCola(Cola);
 
-    Cola2.mostrarVCola(Cola2);
-    Cola2.sacar(elemento);
-    Cola2.mostrarVCola(Cola2);
-    Cola2.sacar(elemento);
-    Cola2.mostrarVCola(Cola2);
-    Cola2.sacar(elemento);
-    Cola2.mostrarVCola(Cola2);
+    // COLA CON VECTORES V.2
 
+    //	VCola2 Cola2;
+    //
+    //	Cola2.poner2(10);
+    //	Cola2.poner2(20);
+    //	Cola2.poner2(30);
+    //	Cola2.poner2(20);
+    //	Cola2.poner2(10);
+    //
+    //	Cola2.mostrarVCola2(Cola2);
+    //	tipo_elemento elemento2;
+	//	Cola2.sacar2(elemento2);
+    //	Cola2.mostrarVCola2(Cola2);
+
+    // COLA CON VECTORES V.3 CON ERRORES
+    //	VCola3 Cola3;
+    //	Cola3.poner3(10);
+    //	Cola3.poner3(20);
+    //	Cola3.poner3(30);
+    //	Cola3.poner3(40);
+    //
+    //	Cola3.mostrarVCola3(Cola3);
+    //	cout<<"\n";
+    //	Cola3.poner3(50);
+    //	Cola3.mostrarVCola3(Cola3);
+
+    PilaP pilap;
+
+	int a=10;
+	int b=20;
+	int c=30;
+	int d=40;
+
+	pilap.meter(a);
+	pilap.meter(b);
+	pilap.meter(c);
+	pilap.meter(d);
+	pilap.mostrar();
+
+	cout << "\n";
+
+	tipo_elemento elementoSacar;
+	pilap.sacar(elementoSacar);
+    cout << "\n";
+    pilap.mostrar();
     system("PAUSE");
     return 0;
 }

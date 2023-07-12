@@ -125,7 +125,8 @@ libre=5		|  5|   0|        |   6|
 //	mem[x].link = libre;
 //	libre = dir; //2
 //	cout << "mem[x].link= " << mem[x].link << " libre=" << dir << endl;
-//}
+//}
+
 
 void CSMemoria::delete_espacio(direccion_mem dir)
 {

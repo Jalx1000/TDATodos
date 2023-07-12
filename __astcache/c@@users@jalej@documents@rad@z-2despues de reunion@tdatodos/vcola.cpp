@@ -35,12 +35,12 @@ void VCola::poner(tipo_elemento E)
     }
 }
 
-void VCola::sacar(tipo_elemento *E)
+void VCola::sacar(tipo_elemento &E)
 {
     if (!vacia())
     {
         E = VC[ini];
-        desplazar(1);
+        // desplazar(1);
         ini = ini + 1;
     }
 }
