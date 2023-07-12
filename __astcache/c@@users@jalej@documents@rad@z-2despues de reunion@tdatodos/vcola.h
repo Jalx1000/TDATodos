@@ -3,22 +3,26 @@
 #ifndef VColaH
 #define VColaH
 //---------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+using namespace std;
 
+typedef int tipo_elemento;
+const int MAX = 100;
 class VCola
 {
-  private:
-    typedef int tipo_elemento;
-	int MAX = 100;
-    tipo_elemento V[MAX];
-	int init;
-    int Dir;
-  public:
-    crear();
-    bool vacia();
-    void Poner(tipo_elemento E);
-    void Sacar(tipo_elemento* E);
-    tipo_elemento Primero();
+private:
+  int VC[MAX];
+  int fin;
+  int ini;
+
+public:
+  VCola();
+  bool vacia();
+  void poner(tipo_elemento E);
+  void sacar(tipo_elemento &E);
+  tipo_elemento primero();
+  void mostrarVCola(VCola cola);
 };
 
 #endif
-

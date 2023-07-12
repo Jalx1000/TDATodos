@@ -8,26 +8,31 @@
 
 ColaL::ColaL()
 {
-  L = new ListaS;
+  L = new ListaV;
 }
 
 bool ColaL::vacia()
 {
-  return L->vacia();
+  return L->LVvacia();
 }
 
 void ColaL::Poner(int E)
 {
-  L->inserta(L->inserta(), E);
+  L->LVinserta(L->LVprimero(), E);
 }
 
 void ColaL::Sacar(int &E)
 {
-  L->recupera(L->fin(), E);
-  L->suprime(L->fin());
+  if (!vacia)
+  {
+    E = L->LVrecupera(L->LVfin());
+    L->LVsuprime(L->LVfin());
+  }
 }
 int ColaL::Primero()
 {
-  L->recupera(L->fin(), E);
-  return E;
+  if (!vacia)
+  {
+    L->LVrecupera(L->LVfin());
+  }
 }

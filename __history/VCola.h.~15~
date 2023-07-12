@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+#ifndef VColaH
+#define VColaH
+//---------------------------------------------------------------------------
+#include <iostream>
+#include <string>
+using namespace std;
+
+typedef int tipo_elemento;
+const int MAX = 100;
+class VCola
+{
+  private:
+    int VC[MAX];
+    int init;
+    int Dir;
+    int fin;
+	int ini;
+    int E;
+  public:
+    VCola();
+    bool vacia();
+    void Poner(tipo_elemento E);
+    void Sacar(tipo_elemento* E);
+    tipo_elemento Primero();
+};
+
+#endif
+

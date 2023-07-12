@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#ifndef ColaL2H
+#define ColaL2H
+//---------------------------------------------------------------------------
+#import "ListaV.h"
+
+class ColaL2
+{
+	ListaV *L;
+
+private:
+public:
+	ColaL2();
+	void vacia();
+	void poner(int e);
+	void sacar(int &e);
+	void primero();
+	;
+};
+
+#endif

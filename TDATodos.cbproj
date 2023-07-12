@@ -114,6 +114,11 @@
             <DependentOn>ColaL.h</DependentOn>
             <BuildOrder>8</BuildOrder>
         </CppCompile>
+        <CppCompile Include="ColaL2.cpp">
+            <VirtualFolder>{41F73256-C1B9-4BB7-A4FB-133755CC26BB}</VirtualFolder>
+            <DependentOn>ColaL2.h</DependentOn>
+            <BuildOrder>9</BuildOrder>
+        </CppCompile>
         <CppCompile Include="CRSMatriz.cpp">
             <VirtualFolder>{E4D34844-A080-4CE3-9FBC-82D54A4BC31D}</VirtualFolder>
             <DependentOn>CRSMatriz.h</DependentOn>
@@ -137,11 +142,6 @@
         <CppCompile Include="Main.cpp">
             <BuildOrder>1</BuildOrder>
         </CppCompile>
-        <CppCompile Include="MLista.cpp">
-            <VirtualFolder>{42BEE4F8-7FA0-4CB0-B7C0-AEED3D18C346}</VirtualFolder>
-            <DependentOn>MLista.h</DependentOn>
-            <BuildOrder>3</BuildOrder>
-        </CppCompile>
         <PCHCompile Include="TDATodosPCH1.h">
             <BuildOrder>0</BuildOrder>
             <PCH>true</PCH>
@@ -150,6 +150,11 @@
             <VirtualFolder>{41F73256-C1B9-4BB7-A4FB-133755CC26BB}</VirtualFolder>
             <DependentOn>VCola.h</DependentOn>
             <BuildOrder>7</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="VCola2.cpp">
+            <VirtualFolder>{41F73256-C1B9-4BB7-A4FB-133755CC26BB}</VirtualFolder>
+            <DependentOn>VCola2.h</DependentOn>
+            <BuildOrder>10</BuildOrder>
         </CppCompile>
         <CppCompile Include="VPila.cpp">
             <VirtualFolder>{3AE7C694-3920-4C9B-BE51-979A43E91BAE}</VirtualFolder>

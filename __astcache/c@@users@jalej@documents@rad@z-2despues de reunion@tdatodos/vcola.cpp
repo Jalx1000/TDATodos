@@ -5,6 +5,15 @@
 #include "VCola.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int desplazar(int n)
+{
+    return n;
+}
 
 VCola::VCola()
 {
@@ -17,25 +26,35 @@ bool VCola::vacia()
     return (ini > fin);
 }
 
-void VCola::Poner(tipo_elemento E)
+void VCola::poner(tipo_elemento E)
 {
-    if (fin < MAX) {
+    if (fin < MAX)
+    {
         fin = fin + 1;
-        v[fin] = E;
+        VC[fin] = E;
     }
 }
 
-void VCola::Sacar(tipo_elemento* E)
+void VCola::sacar(tipo_elemento *E)
 {
-	if (!vacia()) {
-		E = V[1];
+    if (!vacia())
+    {
+        E = VC[ini];
         desplazar(1);
-		fin = fin - 1;
-	}
+        ini = ini + 1;
+    }
 }
 
-tipo_elemento VCola::Primero(){
-	return V[1];//tomar en cuanta el v[0] con el v[1]
+tipo_elemento VCola::primero()
+{
+    return VC[ini]; // tomar en cuanta el v[0] con el v[1]
 }
 
-
+void VCola::mostrarVCola(VCola cola)
+{
+    for (int i = cola.ini; i <= cola.fin; i++)
+    {
+        cout << cola.VC[i] << " ";
+    }
+    cout << endl;
+}

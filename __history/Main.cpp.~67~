@@ -1,0 +1,35 @@
+#include <iostream>
+#include <tchar.h>
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include "CSMemoria.h"
+#include "MLista.h"
+#include "LPolinomio.h"
+#include "VCola.h"
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+    
+    //    VCola Cola = new VCola();
+    VCola Cola;
+    Cola.poner(10);
+    Cola.poner(20);
+    Cola.poner(30);
+    Cola.poner(40);
+    Cola.poner(50);
+
+    Cola.mostrarVCola(Cola);
+    tipo_elemento elemento;
+
+    Cola.sacar(elemento);
+    Cola.mostrarVCola(Cola);
+
+    Cola.sacar(elemento);
+    Cola.mostrarVCola(Cola);
+
+    system("PAUSE");
+    return 0;
+}
+
